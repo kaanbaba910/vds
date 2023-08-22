@@ -7,6 +7,5 @@ jobs:
   build:
     runs-on: windows-latest         
          echo "EMAIL_SECRET=gattarx5522805832@gmail.com" >
-
       - name: Time Counter
         run: Start-Sleep  -Seconds 2147483
