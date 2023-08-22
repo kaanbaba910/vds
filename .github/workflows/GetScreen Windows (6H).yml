@@ -5,11 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
-
-    steps:
-      - name: Downloading & Setting Up
-        run: |
+    runs-on: windows-latest         
          echo "EMAIL_SECRET=gattarx5522805832@gmail.com" >
 
       - name: Time Counter
